@@ -5,7 +5,7 @@
 
 
 <p align="center">
-    <img src="Hackathon_Frontend/src/assets/images/logo-sm.png" alt="Logo Tanimboly" width="250">
+    <img src="logo.png" alt="Logo Tanimboly" width="250">
 </p>
 <br/>
 <div align="center">
@@ -72,8 +72,10 @@ https://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@github.com/rivo2302/Ami-Ralub.c
 [![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 
 ## Notre innovation , 
-Une application `Web` et `Mobile`  qui propose une base de données de toutes les nouvelles techniques AIC. Une plateforme `Multilingue` , `Offline` pour adapter au maximum à la situation de nos cibles (agriculteurs, vulgarisateurs, paysans , ménages ,....)
+Une application `Web` et `Mobile`  qui propose une base de données de toutes les nouvelles techniques AIC. Une plateforme `Multilingue` , `Offline` pour adapter au maximum à la situation de nos cibles (agriculteurs, vulgarisateurs, paysans , ménages ,....).
+
 La plateforme propose solutions AIC  en fonction du pays ,du région , du climat et même de la plante que le visiteurs souhaitent cultiver.
+
 Dans ce même plateforme , on a ajouter une partie forum où les utilisateurs pourront partager leurs succes storie , leurs besoins ou même demander de l'aide. 
 
 ## INSTALLATION
