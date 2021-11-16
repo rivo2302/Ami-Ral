@@ -5,7 +5,7 @@
 
 
 <p align="center">
-    <img src="logo.png" alt="Logo Tanimboly" width="250">
+    <img src="ogo.png" alt="Logo Tanimboly" width="250">
 </p>
 <br/>
 <div align="center">
