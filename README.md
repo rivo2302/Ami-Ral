@@ -94,12 +94,12 @@ phpmyadmin , Heidisql  ou en excecutant la requête par ligne de commande:
     - `$ MySQL: mysql -h hostname -u user database < bdd.sql`
 
 ### Mise en place du front-end
-- `$ cd Hackathon_Frontend`
+- `$ cd Front_end`
 - `$ npm install`
 - `$ npm run build`
 
 ### Mise en place du  back-end
-- `$ cd Hackathon_Backend`
+- `$ cd Back_end`
 - `$ touch .env`  [Vous avez un exemple dans le fichier: exemple.env)]
 - `$ npm install `
 - `$ nodemon run server.js`

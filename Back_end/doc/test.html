@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+    <h2>INSERTION TECHNIQUE</h2>
+    <br>
+    <form action="http://localhost:4000/technique/insertionTechnique"  method="POST" enctype="multipart/form-data">
+        Nom MG : <input type="text" name="nom_mg" id="nom_mg"> <br>
+        Nom FR : <input type="text" name="nom_fr" id="nom_fr"> <br>
+        Desc MG : <input type="text" name="description_mg" id="description_mg"> <br>
+        Desc FR : <input type="text" name="description_fr" id="description_fr"> <br>
+        Info MG : <input type="text" name="info_mg" id="info_mg"> <br>
+        Info FR : <input type="text" name="info_fr" id="info_fr"> <br>
+        productivite MG : <input type="text" name="productivite_mg" id="productivite_mg"> <br>
+        productivite FR : <input type="text" name="productivite_fr" id="productivite_fr"> <br>
+        adaptation MG : <input type="text" name="adaptation_mg" id="adaptation_mg"> <br>
+        adaptation FR : <input type="text" name="adaptation_fr" id="adaptation_fr"> <br>
+        mitigation MG : <input type="text" name="mitigation_mg" id="mitigation_mg"> <br>
+        mitigation FR : <input type="text" name="mitigation_fr" id="mitigation_fr"> <br>
+        Avantage MG : <input type="text" name="avantage_mg" id="avantage_mg"><br>
+        Avantage FR : <input type="text" name="avantage_fr" id="avantage_fr"><br>
+        Materiel MG : <input type="text" name="materiel_mg" id="materiel_mg"> <br>
+        Materiel FR : <input type="text" name="materiel_fr" id="materiel_fr"> <br>
+        Source : <input type="text" name="source" id="source"> <br>
+        Couverture : <input type="file" name="couverture" id="couverture"><br>
+        <input type="submit" name="submit" value="Enregistré">
+    </form>
+
+    <br>
+    <br>
+    <h2>INSERTION ETAPE</h2>
+    <br>
+
+    <form action="http://localhost:4000/technique/insertionEtape"  method="POST" enctype="multipart/form-data">
+        Nom MG : <input type="text" name="nom_mg" id="nom_mg"> <br>
+        Nom FR : <input type="text" name="nom_fr" id="nom_fr"> <br>
+        Numero : <input type="number" name="numero" id="numero"> <br>
+        Desc MG : <input type="text" name="description_mg" id="description_mg"> <br>
+        Desc FR : <input type="text" name="description_fr" id="description_fr"> <br>
+        id_technique : <input type="number" name="id_technique" id="id_technique"> <br>
+        image : <input type="file" name="image" id="image"><br>
+        <input type="submit" name="submit" value="Enregistré">
+    </form>
+
+    <br>
+    <br>
+    <h2>INSERTION IMAGE @ PLANTE</h2>
+    <br>
+
+    <form action="http://localhost:4000/plante/insertionImage"  method="POST" enctype="multipart/form-data">
+        Desc MG : <input type="text" name="description_mg" id="description_mg"> <br>
+        Desc FR : <input type="text" name="description_fr" id="description_fr"> <br>
+        id_plante : <input type="number" name="id_plante" id="id_plante"> <br>
+        image : <input type="file" name="image" id="image"><br>
+        <input type="submit" name="submit" value="Enregistré">
+    </form>
+
+    <!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.js" integrity="sha512-un2apco0rYUiZXxbURvZ7oBq4u0cGrXaIbC4C1k5nAio6WRMyYvj8xKua3NqALOuu0F83zDha7nKoFCZzx26rg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="">
+        var objet={
+            nom_mg:ID('nom_mg').value,
+            nom_fr:ID('nom_fr').value,
+            description_mg:ID('description_mg').value,
+            description_fr:ID('description_fr').value,
+            info_mg:ID('info_mg').value,
+            info_fr:ID('info_fr').value,
+            avantage_mg:ID('avantage_mg').value,
+            avantage_fr:ID('avantage_fr').value,
+            materiel_mg:ID('materiel_mg').value,
+            materiel_fr:ID('materiel_fr').value, 
+            source:ID('source').value,
+            couverture:ID('couverture').value,
+
+        }
+        q
+            var submit1 = document.getElementById('post');
+            submit1.addEventListener('submit',function(e){
+                console.log('ato')
+                e.preventDefault()
+                const axios = require('axios');
+                axios.post('http://localhost:4000/technique/insertionTechnique',objet)
+                .then((res)=>console.log(res.data))
+                .catch((error)=>console.log(error))
+            })
+    </script>
+    -->
+    
+</body>
+</html>
